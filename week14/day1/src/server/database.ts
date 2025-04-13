@@ -3,8 +3,6 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-dotenv.config();
-
 const USER_NAME = process.env.USER_NAME;
 const PASSWORD = process.env.PASSWORD;
 const DB_NAME = process.env.DB_NAME;
