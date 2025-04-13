@@ -1,0 +1,33 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server/server.js",
+    "dev": "tsc && node dist/server/server.js",
+    "clean": "rimraf dist",
+    "clean-build": "npm run clean && npm run build",
+    "watch": "tsc --watch",
+    "start:dev": "nodemon dist/server/server.js"
+  },
+  "main": "index.js",
+  "author": "Joel Williams",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "jquery": "^3.7.1",
+    "mongodb": "^6.15.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.0",
+    "nodemon": "^3.1.9",
+    "rimraf": "^6.0.1"
+  }
+}
